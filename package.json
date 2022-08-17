@@ -1,0 +1,22 @@
+{
+  "name": "myfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzz2021/myfunction.git"
+  },
+  "keywords": [
+    "xzz2022"
+  ],
+  "author": "xzz2022",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzz2021/myfunction/issues"
+  },
+  "homepage": "https://github.com/xzz2021/myfunction#readme"
+}
