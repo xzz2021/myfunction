@@ -1,8 +1,4 @@
-/*
- * @Date: 2022-11-05 15:01:57
- * @LastEditors: xzz2021
- * @LastEditTime: 2023-02-09 15:16:04
- */
+
 
 //随机生成布尔值
 const randomBoolean = () => Math.random() >= 0.5

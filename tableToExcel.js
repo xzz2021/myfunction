@@ -1,8 +1,6 @@
-/*
- * @Date: 2022-12-02 17:46:05
- * @LastEditors: xzz2021
- * @LastEditTime: 2022-12-03 17:39:15
- */
+
+
+
 const tableToExcel = async (column, data, excelName) => {
         return new Promise(async (resolve, reject) => {
             //---33333333333333333-----☆☆☆☆☆☆------最重要的是定义好table及其格式-----reduce----☆☆☆☆☆☆---------
