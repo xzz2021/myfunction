@@ -138,3 +138,16 @@ const ready = function (cb) {
         })
       : cb()
   }
+
+
+
+  //  嵌套循环优化
+  for (var i=0; i<10; i+=1) {
+    for (var j=0; j<10; j+=1) {
+    console.log(i, j);
+    }
+   }
+
+   for (var i=0,j=0;i<10 && j<10;j++,i=(j==10)?i+1:i,j=(j==10)?j=0:j,console.log(i,j)){
+    
+   }
