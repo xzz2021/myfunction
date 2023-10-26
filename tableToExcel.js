@@ -1,6 +1,6 @@
 
 
-
+// 网页表格  或者  数组数据  转换成excel文件进行下载
 const tableToExcel = async (column, data, excelName) => {
         return new Promise(async (resolve, reject) => {
             //---33333333333333333-----☆☆☆☆☆☆------最重要的是定义好table及其格式-----reduce----☆☆☆☆☆☆---------

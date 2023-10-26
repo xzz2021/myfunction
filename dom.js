@@ -79,6 +79,11 @@ document.location.search.replace(/(^\?)/,'').split('&').reduce(function(o,n){n=n
 const selectedText = window.getSelection().toString()
 
 
+
+
+
+
+
 //添加,移除,切换类名
    /*  ele.classList.add('class-name')
     ele.classList.remove('class-name')
