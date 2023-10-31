@@ -151,3 +151,8 @@ const ready = function (cb) {
    for (var i=0,j=0;i<10 && j<10;j++,i=(j==10)?i+1:i,j=(j==10)?j=0:j,console.log(i,j)){
     
    }
+
+
+   const caculateFileSize = (size) => {
+    return size < 0 ? "未知大小" : size < 1024 ? size + "B" : size < 1024 * 1024 ? (size / 1024).toFixed(1) + "KB" : (size / (1024 * 1024)).toFixed(2) + "MB"
+}
